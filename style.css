@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    border:border-box;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color:#222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#h{
+    padding-top: 3px ;
+    font-size:50px;
+    word-spacing: 2px;
+    /* text-decoration:underline; */
+    color: rgb(225, 18, 111);
+}
+.button {
+     width: 100px;
+     height: 100px;
+     border: solid black 3px;
+     display: inline-block;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     margin-left: 25px;
+    }
+
+#green{
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y:initial ;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: green;
+}
+#white{
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y:initial ;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: white;
+}
+#blue{
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y:initial ;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: blue;
+}
+#purple{
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y:initial ;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: purple;
+}
+h1{
+    padding-top: 50px;
+   
+}
+footer{
+    margin-top: 140px;
+}
+.foot1{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+.logo{
+    background-image: url("logo.jpg" );
+    background-size: cover;
+    height: 30px;
+    width: 35px;
+    padding-top: 9px;
+    
+}
+.foot2{
+    background-color: #0f1111;
+    color: white;
+    height: 50px;
+    font-size:0.7rem;
+    text-align: center;
+    padding-top: 4px;
+}
+.copyright{
+    
+    padding-top: 16px;
+    text-align: center;
+}
